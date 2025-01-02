@@ -1,0 +1,75 @@
+body {
+    background-color: #181818; 
+    color: #fff; 
+  }
+  
+  .card {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-img-top {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+.card img {
+  border-radius: 8px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+
+}
+
+.card:hover img {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(71, 70, 70, 0.6); 
+}
+.card {
+  padding: 8px; 
+}
+
+.project-card {
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden; 
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.project-image {
+  height: 200px;
+  object-fit: cover; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  .project-card {
+    margin-bottom: 20px; 
+  }
+
+  .project-image {
+    height: 150px; 
+  }
+}
+.project-card {
+  background: linear-gradient(to bottom, rgb(118, 50, 123), rgb(12, 117, 187));
+  color: white; 
+}
+
+.project-image {
+  max-height: 200px; 
+    object-fit: cover; 
+}
+
+.projects{
+  color: #fff;
+}
+
+

@@ -1,0 +1,49 @@
+
+@media (max-width: 576px) { 
+    .profile-picture {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .profile-picture img {
+      max-width: 190px;
+    }
+  }
+  
+  @media (max-width: 768px) { 
+    .profile-picture {
+      width: 220px;
+      height: 220px;
+    }
+  
+    .profile-picture img {
+      max-width: 210px;
+    }
+  }
+.hero {
+  background-color: #000 !important;
+  color: #fff; 
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #6f42c1, #007bff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture img {
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  border: 0.5px solid #181818;
+}
